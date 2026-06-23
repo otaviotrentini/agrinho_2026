@@ -3,59 +3,233 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agrinho 2026</title>
+  <title>Agrinho 2026 | Futuro Sustentável</title>
+
   <link rel="stylesheet" href="style.css">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
 </head>
 <body>
 
+  <!-- MENU -->
   <header>
-    <h1>AGRINHO 2026</h1>
-    <p>Agro forte, futuro sustentável</p>
+    <nav class="navbar">
+      <h1 class="logo">🌱 AGRINHO 2026</h1>
+
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#tecnologia">Tecnologia</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <button id="darkModeBtn">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </nav>
   </header>
 
-  <section class="hero">
-    <div class="content">
-      <h2>Tecnologia no Campo</h2>
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h2>Agro Forte,<br> Futuro Sustentável</h2>
+
       <p>
-        Nosso projeto apresenta soluções sustentáveis utilizando tecnologia,
-        automação e consciência ambiental para melhorar a produção agrícola.
+        Tecnologia, sustentabilidade e inovação transformando o campo
+        e preservando o meio ambiente.
       </p>
 
-      <button onclick="mostrarMensagem()">
-        Conheça o Projeto
+      <a href="#sobre" class="btn">
+        Explorar Projeto
+      </a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+
+    <div class="section-title">
+      <h2>Sobre o Projeto</h2>
+      <div class="line"></div>
+    </div>
+
+    <div class="sobre-container">
+
+      <div class="sobre-texto">
+        <p>
+          Nosso projeto busca unir tecnologia e sustentabilidade no campo,
+          promovendo soluções inteligentes para irrigação, economia de água,
+          automação agrícola e preservação ambiental.
+        </p>
+
+        <p>
+          O objetivo é mostrar como a inovação pode ajudar produtores
+          rurais a aumentar a produtividade sem prejudicar a natureza.
+        </p>
+      </div>
+
+      <div class="stats">
+
+        <div class="stat-card">
+          <h3>80%</h3>
+          <p>Economia de Água</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>100%</h3>
+          <p>Energia Sustentável</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>24h</h3>
+          <p>Monitoramento</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TECNOLOGIA -->
+  <section class="tecnologia" id="tecnologia">
+
+    <div class="section-title">
+      <h2>Tecnologias Utilizadas</h2>
+      <div class="line"></div>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <i class="fa-solid fa-droplet"></i>
+        <h3>Irrigação Inteligente</h3>
+
+        <p>
+          Sensores monitoram o solo e ativam a irrigação automaticamente.
+        </p>
+      </div>
+
+      <div class="card">
+        <i class="fa-solid fa-solar-panel"></i>
+        <h3>Energia Solar</h3>
+
+        <p>
+          Uso de energia limpa para reduzir impactos ambientais.
+        </p>
+      </div>
+
+      <div class="card">
+        <i class="fa-solid fa-robot"></i>
+        <h3>Automação</h3>
+
+        <p>
+          Sistemas inteligentes aumentam a eficiência agrícola.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- GALERIA -->
+  <section class="galeria" id="galeria">
+
+    <div class="section-title">
+      <h2>Galeria</h2>
+      <div class="line"></div>
+    </div>
+
+    <div class="galeria-grid">
+
+      <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200">
+
+      <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1200">
+
+      <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200">
+
+      <img src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf?q=80&w=1200">
+
+    </div>
+
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="timeline">
+
+    <div class="section-title">
+      <h2>Etapas do Projeto</h2>
+      <div class="line"></div>
+    </div>
+
+    <div class="timeline-container">
+
+      <div class="timeline-item">
+        <span>1</span>
+        <h3>Pesquisa</h3>
+        <p>Levantamento de problemas ambientais no campo.</p>
+      </div>
+
+      <div class="timeline-item">
+        <span>2</span>
+        <h3>Planejamento</h3>
+        <p>Desenvolvimento das soluções sustentáveis.</p>
+      </div>
+
+      <div class="timeline-item">
+        <span>3</span>
+        <h3>Protótipo</h3>
+        <p>Criação do sistema inteligente de irrigação.</p>
+      </div>
+
+      <div class="timeline-item">
+        <span>4</span>
+        <h3>Resultados</h3>
+        <p>Economia de água e maior produtividade.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+
+    <div class="section-title">
+      <h2>Contato</h2>
+      <div class="line"></div>
+    </div>
+
+    <form class="contact-form">
+
+      <input type="text" placeholder="Seu nome">
+
+      <input type="email" placeholder="Seu e-mail">
+
+      <textarea placeholder="Digite sua mensagem"></textarea>
+
+      <button type="submit">
+        Enviar
       </button>
-    </div>
-  </section>
 
-  <section class="cards">
-
-    <div class="card">
-      <h3>🌱 Sustentabilidade</h3>
-      <p>
-        Uso consciente dos recursos naturais para preservar o meio ambiente.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>🤖 Tecnologia</h3>
-      <p>
-        Automação agrícola para aumentar a eficiência no campo.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>💧 Economia de Água</h3>
-      <p>
-        Sistema inteligente de irrigação com sensores.
-      </p>
-    </div>
+    </form>
 
   </section>
 
+  <!-- FOOTER -->
   <footer>
-    <p>Projeto desenvolvido para o Concurso Agrinho 2026</p>
+    <p>
+      © 2026 Projeto Agrinho — Tecnologia e Sustentabilidade
+    </p>
   </footer>
 
   <script src="script.js"></script>
+
 </body>
 </html>
