@@ -1,235 +1,390 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agrinho 2026 | Futuro Sustentável</title>
+
+  <title>Agrinho 2026</title>
 
   <link rel="stylesheet" href="style.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
   <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-  >
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+/>
+
 </head>
+
 <body>
 
-  <!-- MENU -->
-  <header>
-    <nav class="navbar">
-      <h1 class="logo">🌱 AGRINHO 2026</h1>
+<!-- NAVBAR -->
 
-      <ul class="nav-links">
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#tecnologia">Tecnologia</a></li>
-        <li><a href="#galeria">Galeria</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
+<header>
 
-      <button id="darkModeBtn">
-        <i class="fa-solid fa-moon"></i>
-      </button>
-    </nav>
-  </header>
+  <nav class="navbar">
 
-  <!-- HERO -->
-  <section class="hero" id="inicio">
-    <div class="hero-overlay"></div>
+    <h1 class="logo">🌱 AGRINHO 2026</h1>
 
-    <div class="hero-content">
-      <h2>Agro Forte,<br> Futuro Sustentável</h2>
+    <ul class="nav-links">
+
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#estatisticas">Estatísticas</a></li>
+      <li><a href="#impacto">Impacto</a></li>
+      <li><a href="#tecnologia">Tecnologia</a></li>
+      <li><a href="#contato">Contato</a></li>
+
+    </ul>
+
+    <button id="darkModeBtn">
+      <i class="fa-solid fa-moon"></i>
+    </button>
+
+  </nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero" id="inicio">
+
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+
+    <h2>
+      Agro Forte,<br>
+      Futuro Sustentável
+    </h2>
+
+    <p>
+      Tecnologia, inovação e sustentabilidade trabalhando juntas
+      para transformar o campo e proteger o planeta.
+    </p>
+
+    <a href="#sobre" class="btn">
+      Explorar Projeto
+    </a>
+
+  </div>
+
+</section>
+
+<!-- SOBRE -->
+
+<section class="sobre" id="sobre">
+
+  <div class="section-title">
+    <h2>Sobre o Projeto</h2>
+    <div class="line"></div>
+  </div>
+
+  <div class="sobre-container">
+
+    <div class="sobre-texto">
 
       <p>
-        Tecnologia, sustentabilidade e inovação transformando o campo
-        e preservando o meio ambiente.
+        O projeto Agrinho 2026 busca conscientizar sobre a importância
+        da sustentabilidade no agronegócio brasileiro.
       </p>
 
-      <a href="#sobre" class="btn">
-        Explorar Projeto
-      </a>
-    </div>
-  </section>
+      <p>
+        Através da tecnologia, automação e inovação, mostramos como
+        é possível produzir alimentos preservando os recursos naturais.
+      </p>
 
-  <!-- SOBRE -->
-  <section class="sobre" id="sobre">
-
-    <div class="section-title">
-      <h2>Sobre o Projeto</h2>
-      <div class="line"></div>
-    </div>
-
-    <div class="sobre-container">
-
-      <div class="sobre-texto">
-        <p>
-          Nosso projeto busca unir tecnologia e sustentabilidade no campo,
-          promovendo soluções inteligentes para irrigação, economia de água,
-          automação agrícola e preservação ambiental.
-        </p>
-
-        <p>
-          O objetivo é mostrar como a inovação pode ajudar produtores
-          rurais a aumentar a produtividade sem prejudicar a natureza.
-        </p>
-      </div>
-
-      <div class="stats">
-
-        <div class="stat-card">
-          <h3>80%</h3>
-          <p>Economia de Água</p>
-        </div>
-
-        <div class="stat-card">
-          <h3>100%</h3>
-          <p>Energia Sustentável</p>
-        </div>
-
-        <div class="stat-card">
-          <h3>24h</h3>
-          <p>Monitoramento</p>
-        </div>
-
-      </div>
+      <p>
+        O Brasil é um dos maiores produtores agrícolas do mundo,
+        sendo referência em soja, milho, café e carne bovina.
+      </p>
 
     </div>
 
-  </section>
-
-  <!-- TECNOLOGIA -->
-  <section class="tecnologia" id="tecnologia">
-
-    <div class="section-title">
-      <h2>Tecnologias Utilizadas</h2>
-      <div class="line"></div>
-    </div>
-
-    <div class="cards">
-
-      <div class="card">
-        <i class="fa-solid fa-droplet"></i>
-        <h3>Irrigação Inteligente</h3>
-
-        <p>
-          Sensores monitoram o solo e ativam a irrigação automaticamente.
-        </p>
-      </div>
-
-      <div class="card">
-        <i class="fa-solid fa-solar-panel"></i>
-        <h3>Energia Solar</h3>
-
-        <p>
-          Uso de energia limpa para reduzir impactos ambientais.
-        </p>
-      </div>
-
-      <div class="card">
-        <i class="fa-solid fa-robot"></i>
-        <h3>Automação</h3>
-
-        <p>
-          Sistemas inteligentes aumentam a eficiência agrícola.
-        </p>
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- GALERIA -->
-  <section class="galeria" id="galeria">
-
-    <div class="section-title">
-      <h2>Galeria</h2>
-      <div class="line"></div>
-    </div>
-
-    <div class="galeria-grid">
+    <div class="sobre-img">
 
       <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200">
 
-      <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1200">
+    </div>
 
-      <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200">
+  </div>
 
-      <img src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf?q=80&w=1200">
+</section>
+
+<!-- ESTATÍSTICAS -->
+
+<section class="estatisticas" id="estatisticas">
+
+  <div class="section-title">
+    <h2>Estatísticas do Agro Brasileiro</h2>
+    <div class="line"></div>
+  </div>
+
+  <div class="stats-grid">
+
+    <div class="stat-card">
+
+      <i class="fa-solid fa-users"></i>
+
+      <h3 class="counter" data-target="28400000">0</h3>
+
+      <p>Pessoas trabalham no agronegócio</p>
 
     </div>
 
-  </section>
+    <div class="stat-card">
 
-  <!-- TIMELINE -->
-  <section class="timeline">
+      <i class="fa-solid fa-seedling"></i>
 
-    <div class="section-title">
-      <h2>Etapas do Projeto</h2>
-      <div class="line"></div>
-    </div>
+      <h3 class="counter" data-target="26">0</h3>
 
-    <div class="timeline-container">
-
-      <div class="timeline-item">
-        <span>1</span>
-        <h3>Pesquisa</h3>
-        <p>Levantamento de problemas ambientais no campo.</p>
-      </div>
-
-      <div class="timeline-item">
-        <span>2</span>
-        <h3>Planejamento</h3>
-        <p>Desenvolvimento das soluções sustentáveis.</p>
-      </div>
-
-      <div class="timeline-item">
-        <span>3</span>
-        <h3>Protótipo</h3>
-        <p>Criação do sistema inteligente de irrigação.</p>
-      </div>
-
-      <div class="timeline-item">
-        <span>4</span>
-        <h3>Resultados</h3>
-        <p>Economia de água e maior produtividade.</p>
-      </div>
+      <p>% dos empregos do Brasil vêm do agro</p>
 
     </div>
 
-  </section>
+    <div class="stat-card">
 
-  <!-- CONTATO -->
-  <section class="contato" id="contato">
+      <i class="fa-solid fa-droplet"></i>
 
-    <div class="section-title">
-      <h2>Contato</h2>
-      <div class="line"></div>
+      <h3 class="counter" data-target="80">0</h3>
+
+      <p>% de economia com irrigação inteligente</p>
+
     </div>
 
-    <form class="contact-form">
+    <div class="stat-card">
 
-      <input type="text" placeholder="Seu nome">
+      <i class="fa-solid fa-solar-panel"></i>
 
-      <input type="email" placeholder="Seu e-mail">
+      <h3 class="counter" data-target="100">0</h3>
 
-      <textarea placeholder="Digite sua mensagem"></textarea>
+      <p>Energia renovável no projeto</p>
 
-      <button type="submit">
-        Enviar
-      </button>
+    </div>
 
-    </form>
+  </div>
 
-  </section>
+  <div class="dados-texto">
 
-  <!-- FOOTER -->
-  <footer>
     <p>
-      © 2026 Projeto Agrinho — Tecnologia e Sustentabilidade
+      O agronegócio brasileiro emprega mais de 28 milhões de pessoas
+      e representa mais de 26% dos empregos do país.
     </p>
-  </footer>
 
-  <script src="script.js"></script>
+    <p>
+      A tecnologia no campo permite maior produtividade,
+      redução do desperdício de água e preservação ambiental.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- IMPACTO -->
+
+<section class="impacto" id="impacto">
+
+  <div class="section-title">
+    <h2>Impacto Ambiental</h2>
+    <div class="line"></div>
+  </div>
+
+  <div class="impacto-cards">
+
+    <div class="impact-card">
+
+      <i class="fa-solid fa-tree"></i>
+
+      <h3>Preservação</h3>
+
+      <p>
+        O uso consciente da água e do solo ajuda a preservar florestas
+        e reduzir impactos ambientais.
+      </p>
+
+    </div>
+
+    <div class="impact-card">
+
+      <i class="fa-solid fa-cloud"></i>
+
+      <h3>Redução de Poluentes</h3>
+
+      <p>
+        Tecnologias limpas reduzem emissões de carbono e ajudam
+        no combate às mudanças climáticas.
+      </p>
+
+    </div>
+
+    <div class="impact-card">
+
+      <i class="fa-solid fa-recycle"></i>
+
+      <h3>Sustentabilidade</h3>
+
+      <p>
+        O reaproveitamento de recursos naturais aumenta
+        a eficiência agrícola.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- TECNOLOGIA -->
+
+<section class="tecnologia" id="tecnologia">
+
+  <div class="section-title">
+    <h2>Tecnologias Utilizadas</h2>
+    <div class="line"></div>
+  </div>
+
+  <div class="tec-grid">
+
+    <div class="tec-card">
+
+      <i class="fa-solid fa-robot"></i>
+
+      <h3>Automação</h3>
+
+      <p>
+        Sensores inteligentes monitoram o solo em tempo real.
+      </p>
+
+    </div>
+
+    <div class="tec-card">
+
+      <i class="fa-solid fa-wifi"></i>
+
+      <h3>Internet das Coisas</h3>
+
+      <p>
+        Conectividade entre equipamentos agrícolas.
+      </p>
+
+    </div>
+
+    <div class="tec-card">
+
+      <i class="fa-solid fa-microchip"></i>
+
+      <h3>Arduino</h3>
+
+      <p>
+        Controle automático da irrigação sustentável.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- TIMELINE -->
+
+<section class="timeline">
+
+  <div class="section-title">
+    <h2>Etapas do Projeto</h2>
+    <div class="line"></div>
+  </div>
+
+  <div class="timeline-container">
+
+    <div class="timeline-item">
+      <span>1</span>
+      <h3>Pesquisa</h3>
+      <p>Levantamento de dados ambientais.</p>
+    </div>
+
+    <div class="timeline-item">
+      <span>2</span>
+      <h3>Planejamento</h3>
+      <p>Desenvolvimento da solução tecnológica.</p>
+    </div>
+
+    <div class="timeline-item">
+      <span>3</span>
+      <h3>Protótipo</h3>
+      <p>Construção do sistema inteligente.</p>
+    </div>
+
+    <div class="timeline-item">
+      <span>4</span>
+      <h3>Resultados</h3>
+      <p>Economia de água e maior produtividade.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- GALERIA -->
+
+<section class="galeria">
+
+  <div class="section-title">
+    <h2>Galeria</h2>
+    <div class="line"></div>
+  </div>
+
+  <div class="galeria-grid">
+
+    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200">
+
+    <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1200">
+
+    <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200">
+
+    <img src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf?q=80&w=1200">
+
+  </div>
+
+</section>
+
+<!-- CONTATO -->
+
+<section class="contato" id="contato">
+
+  <div class="section-title">
+    <h2>Contato</h2>
+    <div class="line"></div>
+  </div>
+
+  <form class="contact-form">
+
+    <input type="text" placeholder="Seu nome">
+
+    <input type="email" placeholder="Seu e-mail">
+
+    <textarea placeholder="Digite sua mensagem"></textarea>
+
+    <button type="submit">
+      Enviar
+    </button>
+
+  </form>
+
+</section>
+
+<footer>
+
+  <p>
+    © 2026 Projeto Agrinho — Tecnologia e Sustentabilidade
+  </p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>

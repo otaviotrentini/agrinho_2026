@@ -1,31 +1,47 @@
 // DARK MODE
+
 const darkModeBtn = document.getElementById("darkModeBtn");
 
 darkModeBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 });
 
-// ANIMAÇÃO AO ROLAR
-const cards = document.querySelectorAll(".card");
+// CONTADOR ANIMADO
 
-window.addEventListener("scroll", () => {
+const counters = document.querySelectorAll(".counter");
 
-  const trigger = window.innerHeight / 1.3;
+counters.forEach(counter => {
 
-  cards.forEach(card => {
+  counter.innerText = '0';
 
-    const cardTop = card.getBoundingClientRect().top;
+  const updateCounter = () => {
 
-    if(cardTop < trigger){
-      card.style.opacity = "1";
-      card.style.transform = "translateY(0)";
+    const target = +counter.getAttribute('data-target');
+
+    const c = +counter.innerText;
+
+    const increment = target / 200;
+
+    if(c < target){
+
+      counter.innerText = `${Math.ceil(c + increment)}`;
+
+      setTimeout(updateCounter, 10);
+
+    } else {
+
+      counter.innerText = target.toLocaleString();
+
     }
 
-  });
+  };
+
+  updateCounter();
 
 });
 
-// MENSAGEM FORMULÁRIO
+// FORMULÁRIO
+
 const form = document.querySelector(".contact-form");
 
 form.addEventListener("submit", (e) => {
